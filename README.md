@@ -1,4 +1,4 @@
-# shortgenius-com
+# ShortGenius
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shortgenius-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shortgenius.com/
+ShortGenius is an AI-powered video, ads and media creation platform that automates short-form content generation and publishing across TikTok, YouTube, Instagram, Facebook, and X. It offers scriptwriting, video and image creation, voiceover, editing tools, and auto‑posting, targeting creators and teams. The service supports multiple languages, integrates with Claude, Codex, Cursor, and OpenCode, and provides a marketplace of models, voices, and stock assets. Pricing starts at $39/month with higher tiers offering more credits, advanced models, and priority support. ShortGenius aims to streamline social media content workflows for over 100,000 creators.
+
+**Areas:** AI · Video · Advertising · Social Media · Automation
+
+## ShortGenius on APIs.io
+
+Everything profiled for ShortGenius is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shortgenius-com/](https://apis.io/providers/shortgenius-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [ShortGenius Audio API](https://apis.io/apis/shortgenius-com/shortgenius-com-audio-api/) — The Audio API from ShortGenius — 5 operation(s) for audio.
+- [ShortGenius Connections API](https://apis.io/apis/shortgenius-com/shortgenius-com-connections-api/) — The Connections API from ShortGenius — 1 operation(s) for connections.
+- [ShortGenius Credits API](https://apis.io/apis/shortgenius-com/shortgenius-com-credits-api/) — The Credits API from ShortGenius — 1 operation(s) for credits.
+- [ShortGenius Health API](https://apis.io/apis/shortgenius-com/shortgenius-com-health-api/) — The Health API from ShortGenius — 1 operation(s) for health.
+- [ShortGenius Images API](https://apis.io/apis/shortgenius-com/shortgenius-com-images-api/) — The Images API from ShortGenius — 3 operation(s) for images.
+- [ShortGenius Music API](https://apis.io/apis/shortgenius-com/shortgenius-com-music-api/) — The Music API from ShortGenius — 2 operation(s) for music.
+- [ShortGenius Series API](https://apis.io/apis/shortgenius-com/shortgenius-com-series-api/) — The Series API from ShortGenius — 2 operation(s) for series.
+- [ShortGenius Videos API](https://apis.io/apis/shortgenius-com/shortgenius-com-videos-api/) — The Videos API from ShortGenius — 8 operation(s) for videos.
+- [ShortGenius Webhook Endpoints API](https://apis.io/apis/shortgenius-com/shortgenius-com-webhook-endpoints-api/) — The Webhook Endpoints API from ShortGenius — 2 operation(s) for webhook endpoints.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [ShortGenius Agentic Access](https://apis.io/agentic-access/shortgenius-com/shortgenius-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Audio](https://apis.io/schemas/shortgenius-com/shortgenius-com-audio/)
+- [DraftQuizVideo](https://apis.io/schemas/shortgenius-com/shortgenius-com-draft-quiz-video/)
+- [DraftScene](https://apis.io/schemas/shortgenius-com/shortgenius-com-draft-scene/)
+- [Series](https://apis.io/schemas/shortgenius-com/shortgenius-com-series/)
+- [Video](https://apis.io/schemas/shortgenius-com/shortgenius-com-video/)
+- [Voice](https://apis.io/schemas/shortgenius-com/shortgenius-com-voice/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shortgenius Com Context](https://apis.io/jsonld/shortgenius-com/shortgenius-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ShortGenius API Rules](https://apis.io/rules/shortgenius-com/shortgenius-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ShortGenius Authentication](https://apis.io/security/shortgenius-com/shortgenius-com-authentication/)
+- [ShortGenius Domain Security](https://apis.io/security/shortgenius-com/shortgenius-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ShortGenius Plans Pricing](https://apis.io/plans/shortgenius-com/shortgenius-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shortgenius.com/)
+- [Documentation](https://app.shortgenius.com/developers)
+- [API reference](https://shortgenius.gitbook.io/api)
+- [Pricing](https://shortgenius.com/pricing)
+- [Blog](https://shortgenius.com/blog)
+- [Terms of service](https://shortgenius.com/terms)
+- [Privacy policy](https://shortgenius.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.0** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shortgenius-com/](https://apis.io/providers/shortgenius-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ShortGenius: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shortgenius-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
